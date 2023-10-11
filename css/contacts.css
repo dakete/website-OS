@@ -66,7 +66,7 @@ body {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  padding: calc(var(--index)* 0.1) 0;
+  padding: calc(var(--index)* 0.4) 0;
   margin-bottom: var(--gallery-gap);
   margin-top: 5.5%;
   border-radius: 50px;
