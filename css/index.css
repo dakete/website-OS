@@ -214,13 +214,23 @@ footer {
 }
 }
 
-@media screen and ((min-width: 768px) and (max-width: 1024px)){
-  /*Стиль применится, если у устройства есть экран, который при этом 
-либо имеет ширину окна браузера от 480 px до 1920 px, либо
- ориентирован горизонтально*/
+@media screen and ((min-width: 828px) and (max-width: 1792px)){
+  /* 1792×828 */
+
+ .main-title {
+  font-family: outfit-c;
+  bottom: 78vh;
+  font-size: 5em;
+  left: 0.5em;
+  line-height: 1.1;
+  text-shadow: 20px 20px 200px rgba(14, 14, 14, 8);
+  overflow: hidden;
+}
+
  .main-pic {
-  width: 100%;
+  width: 120%;
   object-fit: contain;
+  overflow: hidden;
 }
 
 .gallery_item {
@@ -237,17 +247,19 @@ footer {
   grid-template-columns: repeat(2, 320px);
   grid-template-rows: repeat(2, 220px);
   justify-content: center;
-  margin-right: 2em;
   margin-top: 5.5%;
   padding-top: 0.5%;
+  margin-left: 20%;
   padding-left: 2.5%;
   align-items: center;
   border-radius: 15px;
   background-color: #061e3c;
   box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
+
 }
 
 .log-os {
+  margin-left: 20%;
   font-style: outfit-c;
   text-align: center;
   display: block;
@@ -257,15 +269,39 @@ footer {
   background-color: #061e3c;
   box-shadow: 3px 3px 20px rgba(14, 14, 14, 0.8);
   text-shadow: 3px 3px 20px rgba(14, 14, 14, 9);
+  overflow: hidden;
 }
 
 .description-os {
   font-style: outfit-c;
   text-align: center;
   display: block;
+  margin-left: 20%;
   background-color: #061e3c;
   border-radius: 15px;
   box-shadow: 3px 3px 20px rgba(14, 14, 14, 0.8);
   text-shadow: 3px 3px 20px rgba(14, 14, 14, 9);
+  overflow: hidden;
 }
+
+.end-container {
+  margin-left: 20%;
+  align-items: center;
+  text-align: center;
+  /* margin-left:var(--index); */
+  padding: auto;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+footer {
+  width: 120%;
+  height: auto;
+  background: #141831;
+  /* margin: 0 auto; */
+  text-align: center;
+  margin-top: 160px;
+  overflow: hidden;
+}
+
 }
