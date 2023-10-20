@@ -337,14 +337,10 @@ footer {
 
   .main-banner {
     width: auto;
-    display: flexbox;
-    overflow: hidden;  
   }
 
   .main-pic {
     width: 100%;
-    display: flexbox;
-    overflow:hidden;
   }
   
   .main-title {
