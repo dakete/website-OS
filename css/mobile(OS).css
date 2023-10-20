@@ -350,7 +350,6 @@ footer {
   }
   
   .main-title {
-    position: fixed;
     font-family: outfit-c;
     font-size: calc(var(--index) * 2);
     left: 0.5em;
