@@ -358,6 +358,13 @@ footer {
     text-shadow: 10px 10px 50px rgba(14, 14, 14, 8);
   }
 
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
   .gallery {
     display: flexbox;
     margin: calc(var(--index)* 0.5);

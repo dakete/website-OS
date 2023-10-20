@@ -218,11 +218,11 @@ footer {
   }
   
   .main-title {
-    display: block;
     font-family: outfit-c;
     font-size: calc(var(--index) * 2);
     width: min-content;
     position: absolute;
+    top: 0px;
     left: 0.5em;
     line-height: 1.1;
     text-shadow: 10px 10px 50px rgba(14, 14, 14, 8);
