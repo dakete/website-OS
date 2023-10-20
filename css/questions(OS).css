@@ -396,6 +396,7 @@ footer {
   }
   
   .main-title {
+    display: block;
     font-family: outfit-c;
     font-size: calc(var(--index) * 2  );
     position: absolute;
