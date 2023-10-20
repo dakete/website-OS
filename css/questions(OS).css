@@ -381,321 +381,172 @@ footer {
   border-bottom: 1px solid white;
 }
 
-@media screen and ((min-width: 10px) and (max-width: 768px)) {
+@media (max-width: 924px){
 
   .main-banner {
-    height: 90vh;
-    width: 105%;
+    width: auto;
+    display: flexbox;
+    overflow: hidden;  
   }
 
   .main-pic {
     width: 100%;
-    object-fit: contain;
+    display: flexbox;
+    overflow:hidden;
+  }
+  
+  .main-title {
+    font-family: outfit-c;
+    font-size: calc(var(--index) * 2  );
+    position: absolute;
+    left: 0.5em;
+    bottom: 29em;
+    line-height: 1.1;
+    text-shadow: 10px 10px 50px rgba(14, 14, 14, 8);
   }
 
-  .container2 {
-    display: flex;
-    justify-content: space-around;
-    padding: calc(var(--index)* 0.1) 0;
-    margin-bottom: var(--gallery-gap);
-    margin-top: 5.5%;
-    border-radius: 50px;
-    background-color: #061e3c;
-    box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
+  .container-info {
+    display: flexbox;
+    margin: calc(var(--index)* 0.5);
+    overflow: hidden;
   }
 
-  .card img {
-    width: 180px;
-  }
-
-  .gallery {
-    display: flex;
-    padding: calc(var(--index)* 0.2) 0;
-  }
-
-  .gallery>* {
+  .container-info > * {
     flex: 1;
-    display: flex;
+    display: flexbox;
     align-items: center;
     flex-direction: column;
   }
-
-  .gallery-left {
+  
+  .div-left {
     align-items: center;
   }
 
-  .gallery_item {
-    margin: calc(var(--gallery-gap)* 0.4) 0;
-    max-width: 200px;
+  .div-right {
+    align-items: center;
+  }
+
+  .div-item {
+    display: flexbox;
+    margin: calc(var(--gallery-gap)* 0.3) 0;
+    max-width: 130px;
     border-radius: 50px;
     box-shadow: 10px 10px 50px rgba(14, 14, 14, 0.8)
   }
 
-  .container-sod {
-    width: 90%;
+  .slide-item {
+    display: flexbox;
+    text-align: justify;
+    margin: auto;
+    padding: auto;
+  }
+
+  .card img {
+    width: 90px;
+  }
+
+  .container2 {
+    display: flexbox;
+    width: auto;
+    padding: calc(var(--index) * 1);
+    font-size: calc(var(--index) * 1);
+    justify-content: center;
+    margin-bottom: var(--gallery-gap);
+    border-radius: 50px;
+    background-color: #061e3c;
+    box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
+  }
+  
+  .description-os {
+    display: flexbox;
+    width: auto;
+    font-style: outfit-c;
+    text-align: center;
+    padding: calc(var(--index) * 1);
+    margin-left: 6%;
+    font-size: calc(var(--index) * 1);
+    border-radius: 15px;
+    overflow-x:hidden;
+  }
+
+  .end-grid {
+    display: grid;
+    margin: var(--gallery-gap);
+    grid-template-columns: repeat(3, 130px);
+    margin-left: 8%;
+    border-radius: 50px;
     justify-content: center;
   }
-
-  .main-container {
-    width: 80%;
-    align-items: center;
+  
+  .end-button {
+    transform: translate(calc(var(--index)));
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 30px;
+    text-align: center;
   }
-
-  .gallery {
-    width: 50%;
+  
+  .image-end-button {
+    box-shadow: #000000;
   }
-
-  .div-item {
-    width: 250px;
+  
+  .text-end-button {
+    font-size: calc(var(--index) * 0.31);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 1s;
+    font-family: Raleway-c;
   }
-
+  
+  .text-end-button {
+    background: rgba(45, 45, 45, 0.8);
+    top: 0%;
+    bottom: 100%;
+    padding: 30px 30px;
+  }
+  
+  .text-end-button:hover {
+    padding-top: 100%;
+    opacity: .2;
+  }
+  
   footer {
-    width: 130%;
+    display: flexbox;
+    width: auto;
     height: auto;
     background: #141831;
-    margin: 0 auto;
     text-align: center;
-    padding-top: 25px;
+    margin-top: 100px;
+    overflow-x:hidden;
   }
 
-}
-
-@media screen and ((min-width: 769px) and (max-width: 1024px)) {
-
-  /*Стиль применится, если у устройства есть экран, который при этом 
-либо имеет ширину окна браузера от 480 px до 1920 px, либо
- ориентирован горизонтально*/
-  .main-banner {
-    height: 90vh;
-    width: 100%;
+  .toc-wrapper > h2 {
+    font-family: outfit-c;
+    font-size: calc(var(--index) * 3);
   }
 
-  .main-pic {
-    width: 100%;
-    object-fit: contain;
+  .toc-wrapper {
+    display: flexbox;
+    width: auto;
+    margin: 10%;
   }
 
-  .container2 {
-    display: flex;
-    justify-content: space-around;
-    padding: calc(var(--index)* 0.1) 0;
-    margin-bottom: var(--gallery-gap);
-    margin-top: 5.5%;
-    border-radius: 50px;
-    background-color: #061e3c;
-    box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
+  .text-p {
+    margin-bottom: 5%;
+  }
+  
+  .text-h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(var(--index) * 2);
+  }
+  
+  .slide-text {
+    display: flexbox;
+    text-align: justify;
   }
 
-  .card img {
-    width: 200px;
-  }
-
-  .gallery {
-    display: flex;
-    padding: calc(var(--index)* 0.2) 0;
-  }
-
-  .gallery>* {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .gallery-left {
-    align-items: center;
-  }
-
-  .gallery_item {
-    margin: calc(var(--gallery-gap)* 0.3) 0;
-    max-width: 200px;
-    border-radius: 50px;
-    box-shadow: 10px 10px 50px rgba(14, 14, 14, 0.8)
-  }
-
-  .container-sod {
-    width: 90%;
-    justify-content: center;
-  }
-
-  .main-container {
-    width: 90%;
-  }
-
-  .gallery {
-    width: 70%;
-  }
-
-  .div-item {
-    width: 300px;
-  }
-
-  @media screen and ((min-width: 10px) and (max-width: 768px)) {
-
-    .container1 {
-      width: 80%;
-    }
-
-    .main-banner {
-      height: 100vh;
-      width: 90%;
-    }
-
-    .main-pic {
-      width: 100%;
-      object-fit: contain;
-    }
-
-    .container2 {
-      display: flex;
-      justify-content: center;
-      padding: calc(var(--index)* 2) 0;
-      border-radius: 50px;
-      background-color: #061e3c;
-      box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
-    }
-
-    .card img {
-      width: 120px;
-    }
-
-    .gallery {
-      display: flex;
-      padding: calc(var(--index)* 0.2) 0;
-    }
-
-    .gallery>* {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .gallery-left {
-      align-items: center;
-    }
-
-    .gallery_item {
-      margin: calc(var(--gallery-gap)* 0.4) 0;
-      max-width: 200px;
-      border-radius: 50px;
-      box-shadow: 10px 10px 50px rgba(14, 14, 14, 0.8)
-    }
-
-    .container-sod {
-      width: 90%;
-      justify-content: center;
-    }
-
-    .main-container {
-      width: 70%;
-    }
-
-    .fran {
-      width: 60%;
-    }
-
-    .container-info {
-      width: 70%;
-    }
-
-    .div-item {
-      width: 350px;
-    }
-
-    .container1 {
-      width: 65%;
-    }
-
-    footer {
-      width: 130%;
-      height: auto;
-      background: #141831;
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 25px;
-    }
-
-  }
-
-  @media screen and ((min-width: 769px) and (max-width: 1024px)) {
-
-    /*Стиль применится, если у устройства есть экран, который при этом 
-либо имеет ширину окна браузера от 480 px до 1920 px, либо
- ориентирован горизонтально*/
-    .main-banner {
-      height: 100vh;
-      width: 100%;
-    }
-
-    .main-pic {
-      width: 100%;
-      object-fit: contain;
-    }
-
-    .container2 {
-      display: flex;
-      justify-content: space-around;
-      padding: calc(var(--index)* 2) 0;
-      border-radius: 50px;
-      background-color: #061e3c;
-      box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
-    }
-
-    .card img {
-      width: 150px;
-    }
-
-    .gallery {
-      display: flex;
-      padding: calc(var(--index)* 0.3) 0;
-    }
-
-    .gallery>* {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .gallery-left {
-      align-items: center;
-    }
-
-    .gallery_item {
-      margin: calc(var(--gallery-gap)* 0.5) 0;
-      max-width: 200px;
-      border-radius: 50px;
-      box-shadow: 10px 10px 50px rgba(14, 14, 14, 0.8)
-    }
-
-    .container-sod {
-      width: 60%;
-      justify-content: center;
-    }
-
-    .main-container {
-      width: 70%;
-    }
-
-    .fran {
-      width: 60%;
-    }
-
-    .container-info {
-      width: 60%;
-    }
-
-    .div-item {
-      width: 350px;
-    }
-
-    .container1 {
-      width: 65%;
-    }
-
-    .text-h3 {
-      width: 70%;
-    }
-  }
 }

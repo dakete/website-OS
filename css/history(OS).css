@@ -313,7 +313,7 @@ footer {
 
   .gallery_item {
     margin: calc(var(--gallery-gap)* 0.3) 0;
-    max-width: 200px;
+    max-width: 130px;
     border-radius: 50px;
     box-shadow: 10px 10px 50px rgba(14, 14, 14, 0.8)
   }
@@ -380,7 +380,6 @@ footer {
     width: auto;
     height: auto;
     background: #141831;
-    /* margin: 0 auto; */
     text-align: center;
     margin-top: 100px;
     overflow-x:hidden;
