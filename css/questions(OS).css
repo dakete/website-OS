@@ -400,7 +400,7 @@ footer {
     font-family: outfit-c;
     font-size: calc(var(--index) * 2  );
     position: absolute;
-    top: 500px;
+    bottom: 60em;
     left: 0.5em;
     line-height: 1.1;
     text-shadow: 10px 10px 50px rgba(14, 14, 14, 8);
