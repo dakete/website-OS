@@ -385,10 +385,15 @@ footer {
 
   .main-banner {
     width: auto;
+    display: flexbox;
+    overflow-x:hidden;
   }
 
   .main-pic {
     width: 100%;
+    object-fit: contain;
+    display: flexbox;
+    overflow-x:hidden;
   }
   
   .main-title {
