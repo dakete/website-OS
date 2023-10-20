@@ -201,7 +201,7 @@ footer {
   border-bottom: 1px solid white;
 }
 
-@media screen and ((min-width: 410px) and (max-width: 768px)){
+/* @media screen and ((min-width: 410px) and (max-width: 768px)){
 
   .description-os {
     text-align: center;
@@ -212,9 +212,9 @@ footer {
     box-shadow: 3px 3px 20px rgba(14, 14, 14, 0.8);
     text-shadow: 3px 3px 20px rgba(14, 14, 14, 9);
 }
-}
+} */
 
-@media screen and ((min-width: 410px) and (max-width: 768px)){
+@media screen and (max-width: 768px){
   /* 1792×828 */
 
  .main-title {
