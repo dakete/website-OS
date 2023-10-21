@@ -314,7 +314,7 @@ footer {
     align-items: center;
   }
 
-  .div-item {
+  .gallery_item {
     margin: calc(var(--gallery-gap)* 0.3) 0;
     max-width: 130px;
     border-radius: 50px;
