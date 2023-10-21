@@ -339,7 +339,6 @@ footer {
     width: auto;
     display: flexbox;
     overflow-x:hidden;
-    position: relative;
   }
 
   .main-pic {
@@ -352,6 +351,9 @@ footer {
   .main-title {
     font-family: outfit-c;
     font-size: calc(var(--index) * 2);
+    width: min-content;
+    position: absolute;
+    top: 30px;
     left: 0.5em;
     line-height: 1.1;
     text-shadow: 10px 10px 50px rgba(14, 14, 14, 8);

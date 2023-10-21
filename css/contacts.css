@@ -296,9 +296,9 @@ footer {
   }
   
   .main-title {
-    display: block;
     font-family: outfit-c;
     font-size: calc(var(--index) * 2);
+    width: min-content;
     position: absolute;
     top: 30px;
     left: 0.5em;
