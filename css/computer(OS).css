@@ -455,4 +455,18 @@ footer {
     display: flexbox;
     text-align: justify;
   }
+
+  .end-container {
+    display: flexbox;
+    width: auto;
+    font-size: calc(var(--index) * 1);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+    overflow: hidden;
+  }
+
+  .far {
+    overflow-x: hidden;
+  }
 }

@@ -340,7 +340,6 @@ footer {
     padding: calc(var(--index) * 1);
     font-size: calc(var(--index) * 1);
     justify-content: center;
-    padding: calc(var(--index)* 3) 0;
     margin-bottom: var(--gallery-gap);
     border-radius: 50px;
     background-color: #061e3c;

@@ -556,4 +556,8 @@ footer {
     padding-top: 100%;
     opacity: .2;
   }
+
+  .far {
+    overflow-x: hidden;
+  }
 }
