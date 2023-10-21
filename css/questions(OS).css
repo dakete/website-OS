@@ -430,6 +430,7 @@ footer {
 
   .div-item {
     display: flexbox;
+    overflow-x: hidden;
     margin: calc(var(--gallery-gap)* 0.3) 0;
     max-width: 130px;
     border-radius: 50px;
@@ -448,6 +449,7 @@ footer {
   }
 
   .container2 {
+    overflow-x: hidden;
     display: flexbox;
     width: auto;
     padding: calc(var(--index) * 1);
