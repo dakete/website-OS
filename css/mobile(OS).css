@@ -352,9 +352,6 @@ footer {
   .main-title {
     font-family: outfit-c;
     font-size: calc(var(--index) * 2);
-    width: min-content;
-    position: absolute;
-    top: 30px;
     left: 0.5em;
     line-height: 1.1;
     text-shadow: 10px 10px 50px rgba(14, 14, 14, 8);
@@ -392,13 +389,11 @@ footer {
   .container2 {
     display: flexbox;
     width: auto;
+    padding: calc(var(--index) * 1);
     font-size: calc(var(--index) * 1);
-    grid-template-columns: repeat(4, 95px);
     justify-content: center;
-    padding-top: 0.5%;
-    align-items: center;
     margin-bottom: var(--gallery-gap);
-    border-radius: 15px;
+    border-radius: 50px;
     background-color: #061e3c;
     box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
   }
