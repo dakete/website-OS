@@ -339,6 +339,7 @@ footer {
     width: auto;
     display: flexbox;
     overflow-x:hidden;
+    height: 10vh;
   }
 
   .main-pic {
