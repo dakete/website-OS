@@ -337,12 +337,13 @@ footer {
   .container2 {
     display: flexbox;
     width: auto;
-    padding: calc(var(--index) * 1);
     font-size: calc(var(--index) * 1);
+    grid-template-columns: repeat(4, 95px);
     justify-content: center;
-    padding: calc(var(--index)* 3) 0;
+    padding-top: 0.5%;
+    align-items: center;
     margin-bottom: var(--gallery-gap);
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: #061e3c;
     box-shadow: 3px 3px 50px rgba(14, 14, 14, 0.8)
   }
