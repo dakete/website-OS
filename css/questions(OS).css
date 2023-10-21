@@ -421,23 +421,16 @@ footer {
     align-items: center;
   }
 
-  .gallery-right {
-    align-items: center;
-  }
-
   .div-item {
-    display: flexbox;
     margin: calc(var(--gallery-gap)* 0.3) 0;
     max-width: 130px;
     border-radius: 50px;
     box-shadow: 10px 10px 50px rgba(14, 14, 14, 0.8)
   }
 
-  .slide-item {
+  .slide-text {
     display: flexbox;
     text-align: justify;
-    margin: auto;
-    padding: auto;
   }
 
   .card img {
@@ -466,6 +459,16 @@ footer {
     font-size: calc(var(--index) * 1);
     border-radius: 15px;
     overflow-x:hidden;
+  }
+
+  .end-container {
+    display: flexbox;
+    width: auto;
+    font-size: calc(var(--index) * 1);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+    overflow: hidden;
   }
 
   .end-grid {
